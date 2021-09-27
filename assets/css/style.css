@@ -1,8 +1,12 @@
 body {
+	/* BASE */
 	margin-right: 20%;
 	margin-left: 20%;
-
 	font-family: 'Open Sans', sans-serif;
+
+	/* Body */
+	background-color: #00242B;
+	color: #7DE38D;
 }
 
 h1 {
