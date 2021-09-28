@@ -1,14 +1,59 @@
 body {
 	/* BASE */
-	margin-right: 20%;
-	margin-left: 20%;
+	margin: 0%;
+	padding: 0%;
 	font-family: 'Open Sans', sans-serif;
-
-	/* Body */
-	background-color: #00242B;
-	color: #7DE38D;
+	background-color: #00242b;
+	color: white;
+	min-height: 100vh;
+	
 }
 
+		/* FLEXBOX */
+
+div {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+header{
+	min-width: 100vw;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+
+section {
+	display: block;
+  	flex-grow: 0;
+  	flex-shrink: 1;
+  	flex-basis: auto;
+  	align-self: auto;
+  	order: 0;
+	width: 60%;
+	height: 30%;
+}
+
+footer {
+	min-width: 100vw;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+
+
+		/* GENERAL */
 h1 {
 	font-family: 'Bree Serif', serif;
 }

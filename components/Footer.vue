@@ -1,19 +1,17 @@
 <template>
-	<header>
-		<h1>Bypass LOGO</h1>
-		<a>HACKERTOOLS</a>
-		<a>DOCUMENTATION</a>
-	</header>
+	<footer>
+		<h1>FOOTER</h1>
+	</footer>
 </template>
 
 <script>
 export default {
-	name:'Header'
+	name:'Footer'
 }
 </script>
 
 <style scoped>
-	header {
+	footer {
 
 		/*TEST */
 		border: 1px white solid;
