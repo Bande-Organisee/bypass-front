@@ -12,8 +12,6 @@ export default {
 
 <style scoped>
 section {
-  /* TEST */
-  border: 1px white solid;
   border-radius: 20px;
   background-color: #004d4e;
 }

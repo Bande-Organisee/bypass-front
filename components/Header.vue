@@ -1,8 +1,10 @@
 <template>
 	<header>
 		<h1>Bypass LOGO</h1>
-		<a>HACKERTOOLS</a>
-		<a>DOCUMENTATION</a>
+		<div id="text">
+			<a href="#">HACKERTOOLS</a>
+			<a href="#">DOCUMENTATION</a>
+		</div>
 	</header>
 </template>
 
@@ -18,7 +20,18 @@ export default {
 		/*TEST */
 		border: 1px white solid;
 		
-		/* NAV */
+		/* FLEXBOX*/
+
 		display: flex;
+  		flex-direction: row;
+		flex-wrap: nowrap;
+  		justify-content: space-between;
+  		align-items: center;
+  		align-content: normal;
 	}
+
+	a{
+		margin: 30px;
+	}
+
 </style>

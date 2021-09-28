@@ -11,7 +11,7 @@ body {
 
 		/* FLEXBOX */
 
-div {
+/* div {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -19,7 +19,7 @@ div {
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-}
+} */
 
 header{
 	min-width: 100vw;
@@ -56,4 +56,9 @@ footer {
 		/* GENERAL */
 h1 {
 	font-family: 'Bree Serif', serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
 }
