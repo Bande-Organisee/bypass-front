@@ -20,3 +20,5 @@ $ npm run generate
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Explication Projet
+
+Bypass est un projet du Workshop de 4eme année

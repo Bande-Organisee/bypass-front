@@ -13,6 +13,11 @@ export default {
 
 <style scoped>
 	header {
+
+		/*TEST */
 		border: 1px white solid;
+
+		/* NAV */
+		
 	}
 </style>
