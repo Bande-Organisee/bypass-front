@@ -12,7 +12,7 @@ import Header from '~/components/Header.vue'
 import Section from '~/components/Section.vue'
 import Footer from '~/components/Footer.vue'
 export default {
-  components: { Header, Section, Footer, Article },}
+  components: { Header, Section, Footer },}
 </script>
 
 <style scoped>
