@@ -1,6 +1,7 @@
 <template>
 	<section>
-		<p>test</p>
+		<Article />
+		<Article />
 	</section>
 </template>
 

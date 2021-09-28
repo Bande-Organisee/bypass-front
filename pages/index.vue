@@ -1,10 +1,8 @@
 <template>
 	<div>
 		<Header />
-		<div>
-			<Section />
-			<Article />
-		</div>
+		<Section />
+		<Article />
 		<Footer />
 	</div>
 </template>
