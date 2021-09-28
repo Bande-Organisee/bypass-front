@@ -19,6 +19,6 @@ export default {
 		border: 1px white solid;
 		
 		/* NAV */
-		
+		display: flex;
 	}
 </style>
