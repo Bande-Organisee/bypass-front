@@ -18,7 +18,7 @@ export default {
     return {
       response: null,
       ipInput: "",
-      portInput: "",
+      portInput: ""
     };
   },
   methods: {
@@ -27,10 +27,10 @@ export default {
       // 8006
       console.log("scan");
       axios
-        .get(`http://localhost:3842/getIp?ip=${ip}&port=${+port}`)
-        .then((response) => (this.response = response.data));
-    },
-  },
+        .get(`http://192.168.0.25:3842/getIp?ip=${ip}&port=${+port}`)
+        .then(response => (this.response = response.data));
+    }
+  }
 };
 </script>
 
