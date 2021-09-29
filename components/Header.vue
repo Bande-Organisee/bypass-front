@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<h1>Bypass LOGO</h1>
+		<img id="logo" src="../assets/Bypass-logo/cover.png">
 		<div id="text">
 			<a href="#">HACKERTOOLS</a>
 			<a href="#">DOCUMENTATION</a>
@@ -32,6 +32,10 @@ export default {
 
 	a{
 		margin: 30px;
+	}
+
+	#logo{
+		height: 50px;
 	}
 
 </style>
