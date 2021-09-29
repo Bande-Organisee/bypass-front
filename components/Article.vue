@@ -28,7 +28,7 @@ export default {
       console.log("scan");
       axios
         .get(`http://localhost:3842/getIp?ip=${ip}&port=${+port}`)
-        .then(response => (this.response = response));
+        .then(response => (this.response = response.data));
     }
   }
 };
