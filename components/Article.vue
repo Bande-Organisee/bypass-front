@@ -2,7 +2,7 @@
   <article>
     <input type="text" v-model="ipInput" placeholder="ip" />
     <input type="text" v-model="portInput" placeholder="port" />
-    <button @click="getData()">test</button>
+    <button @click="getData(ipInput, portInput)">test</button>
     <div v-if="response">
       <p>Réponse : {{ response }}</p>
     </div>
@@ -18,20 +18,19 @@ export default {
     return {
       response: null,
       ipInput: "",
-      portInput: ""
+      portInput: "",
     };
   },
   methods: {
     getData(ip, port) {
       // 37.59.50.228
       // 8006
-      // http://localhost:3842/getIp?ip=${ip}&port=${+port}
       console.log("scan");
       axios
-        .get(`http://localhost:3842/michel`)
-        .then(response => (this.response = response.data));
-    }
-  }
+        .get(`http://localhost:3842/getIp?ip=${ip}&port=${+port}`)
+        .then((response) => (this.response = response.data));
+    },
+  },
 };
 </script>
 
