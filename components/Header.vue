@@ -37,5 +37,7 @@ header {
 
 .link {
   color: #7de38d;
+  font-size: 28px;
 }
+
 </style>
