@@ -237,6 +237,6 @@ h3 {
 }
 a {
   text-decoration: underline;
-  color: #white;
+  color: white;
 }
 </style>
