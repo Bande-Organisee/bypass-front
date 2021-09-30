@@ -36,7 +36,7 @@ export default {
       // 8006
       console.log("scan");
       axios
-        .get(`http://workshop.sbcorp.ovh:3842/getIp?ip=${ip}&port=${+port}`)
+        .get(`https://workshop.sbcorp.ovh:3842/getIp?ip=${ip}&port=${+port}`)
         .then(response => (this.response = response.data));
     }
   }
