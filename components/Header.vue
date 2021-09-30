@@ -1,41 +1,41 @@
 <template>
-	<header>
-		<img id="logo" src="../assets/Bypass-logo/cover.png">
-		<div id="text">
-			<a href="#">HACKERTOOLS</a>
-			<a href="#">DOCUMENTATION</a>
-		</div>
-	</header>
+  <header>
+    <img
+      class="logo"
+      src="@/assets/Bypass-logo/cover-ajusted.png"
+      @click="$router.push('/')"
+    />
+    <div>
+      <NuxtLink class="link" to="/">Accueil</NuxtLink>
+    </div>
+  </header>
 </template>
 
 <script>
 export default {
-	name:'Header'
-}
+  name: "Header"
+};
 </script>
 
 <style scoped>
-	header {
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 25px;
+}
 
-		/*TEST */
-		border: 1px white solid;
-		
-		/* FLEXBOX*/
+.logo {
+  width: 150px;
+}
 
-		display: flex;
-  		flex-direction: row;
-		flex-wrap: nowrap;
-  		justify-content: space-between;
-  		align-items: center;
-  		align-content: normal;
-	}
+.logo:hover {
+  cursor: pointer;
+}
 
-	a{
-		margin: 30px;
-	}
-
-	#logo{
-		height: 50px;
-	}
-
+.link {
+  color: #7de38d;
+}
 </style>

@@ -1,7 +1,5 @@
 <template>
-  <section>
-    <Article />
-  </section>
+  <section></section>
 </template>
 
 <script>

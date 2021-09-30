@@ -1,22 +1,22 @@
 <template>
-	<footer>
-		<h1>FOOTER</h1>
-	</footer>
+  <footer>
+    <p>Bypass - par Charles, Enzo, Nathan, Simon et Théo</p>
+  </footer>
 </template>
 
 <script>
 export default {
-	name:'Footer'
-}
+  name: "Footer"
+};
 </script>
 
 <style scoped>
-	footer {
+footer {
+  position: absolute;
+  bottom: 0;
+}
 
-		/*TEST */
-		border: 1px white solid;
-		
-		/* NAV */
-		
-	}
+footer p {
+  font-size: 14px;
+}
 </style>
