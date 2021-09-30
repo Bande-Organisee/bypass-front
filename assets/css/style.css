@@ -8,29 +8,6 @@ body {
   color: #7de38d;
 }
 
-/*
-header {
-  min-width: 100vw;
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-}
-
-footer {
-  min-width: 100vw;
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-}
-*/
-
-/* GENERAL */
 h1 {
   font-family: "Bree Serif", serif;
 }
@@ -38,4 +15,19 @@ h1 {
 a {
   text-decoration: none;
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #00242b;
+  border-left: 1px solid #00242b;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7de38d;
+  border-left: 0px solid #00242b;
 }
