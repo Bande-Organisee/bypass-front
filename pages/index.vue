@@ -98,11 +98,11 @@ body {
 
 .content-moved {
   right: 5%;
-  transform: translateX(0%) perspective(800px) rotateY(-25deg);
+  transform: translateX(0%) perspective(800px) rotateY(-10deg);
 }
 
 .console {
-  width: 40%;
+  width: 700px;
   min-height: 300px;
   border: double 8px #7de38d;
   padding: 10px 20px;
@@ -125,7 +125,7 @@ body {
 
 .console-moved {
   left: 5%;
-  transform: translateX(0%) perspective(800px) rotateY(25deg);
+  transform: translateX(0%) perspective(800px) rotateY(10deg);
 }
 
 .footer {
