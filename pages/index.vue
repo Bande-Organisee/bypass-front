@@ -49,6 +49,10 @@ export default {
 </script>
 
 <style scoped>
+
+body {
+  overflow: hidden;
+}
 .content {
   min-height: 100vh;
 
