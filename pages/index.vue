@@ -17,7 +17,7 @@
       <p>> Console</p>
       <Form />
     </div>
-    <Footer />
+    <Footer isIndex />
   </div>
 </template>
 
@@ -49,7 +49,6 @@ export default {
 </script>
 
 <style scoped>
-
 body {
   overflow: hidden;
 }
