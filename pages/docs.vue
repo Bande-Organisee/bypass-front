@@ -227,7 +227,7 @@ export default {
   border: 0;
   border-top: 1px solid #7de38d;
   margin-bottom: 40px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 br {
   padding: 10px;

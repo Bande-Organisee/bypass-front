@@ -17,7 +17,7 @@
       <p>> Console</p>
       <Form />
     </div>
-    <Footer isIndex />
+    <Footer isIndex class="footer" />
   </div>
 </template>
 
@@ -81,6 +81,7 @@ body {
   width: 500px;
   margin-bottom: 40px;
   margin-top: -75px;
+  animation: 1s show;
 }
 
 .content-main section {
@@ -125,5 +126,19 @@ body {
 .console-moved {
   left: 5%;
   transform: translateX(0%);
+}
+
+.footer {
+  animation: 1s show;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 </style>

@@ -22,6 +22,8 @@ export default {
 .box {
   width: 300px;
   height: 150px;
+  animation: 1s showbox;
+
   border: solid 1px #7de38d;
   padding: 10px 20px;
   transition: 0.3s;
@@ -46,5 +48,17 @@ export default {
 .box-clicked {
   background: #7de38d;
   color: #00242b;
+}
+
+@keyframes showbox {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+
+  to {
+    opacity: 1;
+    height: 150px;
+  }
 }
 </style>
