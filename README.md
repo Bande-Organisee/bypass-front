@@ -1,4 +1,4 @@
-# 🛡️ Bypass
+# 🛡️ Bypass (https://workshop.sbcorp.ovh/)
 
 ## Build Setup
 
